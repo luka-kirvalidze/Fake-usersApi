@@ -1,0 +1,21 @@
+{
+  "name": "5mf",
+  "version": "1.0.0",
+  "description": "5mf node server api tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "deploy": "firebase deploy --only functions:api"
+  },
+  "author": "Clif Hodges",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^12.0.0",
+    "firebase-functions": "^4.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
