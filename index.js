@@ -15,6 +15,8 @@ api.get('/users', (req,res) => {
 })
 
 
-api.listen(PORT, () => console.log(`API running at ${HOST}:${PORT}!`))
+// api.listen(PORT, () => console.log(`API running at ${HOST}:${PORT}!`))
+api.listen(PORT, () => console.log(`API running at ${PORT}!`))
+
 
 exports.api = functions.https.onRequest(api)
