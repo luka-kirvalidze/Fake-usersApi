@@ -3,7 +3,7 @@ const data = require('./dummy')
 const functions = require("firebase-functions")
 const api = express()
 
-const HOST = 'localhost'
+// const HOST = 'localhost'
 const PORT = 8888
 
 api.get('/', (req,res) => {
